@@ -16,7 +16,7 @@ setup(name='testpackage',
           'Operating System :: OS Independent'
       ],
       url='www,github.com/Sai-AungKhant'
-      author='SaiAungKhant'
+      author='SaiAungKhant',
       author_email='saiaungkhantthu60@gmail.com',
       keywords='core package',
       license='MIT',
