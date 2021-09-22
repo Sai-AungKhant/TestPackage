@@ -1,26 +1,26 @@
-import setuptools
+from setuptools import setup
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+def readme():
+    with open('READMe.md') as f:
+        return f.read()
 
-setuptools.setup(
-    name="example-pkg-YOUR-USERNAME-HERE",
-    version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
-    project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
-    },
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.6",
-)
+setup(name='testpackage',
+      version='0.0.1',
+      description='test package bottom text.',
+      long_description=readme(),
+      long_descripttion_content_type='text/markdown',
+      classifiers=[
+          'Developement Status :: 5 - Production/Stable',
+          'License :: OSI Approved :: MIT License',
+          'Programming Language :: Python :: 3',
+          'Operating System :: OS Independent'
+      ],
+      url='www,github.com/Sai-AungKhant'
+      author='SaiAungKhant'
+      author_email='saiaungkhantthu60@gmail.com',
+      keywords='core package',
+      license='MIT',
+      packages=['testpackage']
+      install_requires=[],
+      include_package_data=True,
+      zip_safe=False)
