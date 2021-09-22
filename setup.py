@@ -10,17 +10,17 @@ setup(name='testpackage',
       long_description=readme(),
       long_descripttion_content_type='text/markdown',
       classifiers=[
-          'Developement Status :: 5 - Production/Stable',
+          'Development Status :: 1 - Planning',
           'License :: OSI Approved :: MIT License',
           'Programming Language :: Python :: 3',
           'Operating System :: OS Independent'
       ],
-      url='www,github.com/Sai-AungKhant'
-      author='SaiAungKhant'
+      url='www.github.com/Sai-AungKhant',
+      author='SaiAungKhant',
       author_email='saiaungkhantthu60@gmail.com',
       keywords='core package',
       license='MIT',
-      packages=['testpackage']
+      packages=['testpackage'],
       install_requires=[],
       include_package_data=True,
       zip_safe=False)
