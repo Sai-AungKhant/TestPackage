@@ -17,7 +17,6 @@ setup(name='testpackage',
       ],
 
       url='www.github.com/Sai-AungKhant',
-      url='www.github.com/Sai-AungKhant',
       author='SaiAungKhant',
       author_email='saiaungkhantthu60@gmail.com',
       keywords='core package',
